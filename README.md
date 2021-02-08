@@ -2,7 +2,7 @@
   React-Bootstrap Gatsby starter
 </h1>
 
-Modified boilerplate of the Gatsby default starter including React-Bootstrap and the Framer Motion library.
+Modified boilerplate of the Gatsby default starter including React-Bootstrap, and the <a href="https://github.com/framer/motion">Framer Motion</a> library with <a href="https://www.npmjs.com/package/react-intersection-observer">react-intersection-observer</a> for easy animations.
 
 ## Quick start
 

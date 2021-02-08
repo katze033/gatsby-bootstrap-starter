@@ -1,9 +1,22 @@
+const path = require('path')
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
-  siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+  flags: {
+    DEV_SSR: false,
   },
+  siteMetadata: {
+    title: "Josh Katzenmeyer",
+    titleTemplate: "Josh Katzenmeyer",
+    description:
+      "Minneapolis-based creative technologist offering limited edition generative artworks, commissions, and web development services.",
+    url: "https://www.joshkatzenmeyer.com", // No trailing slash allowed!
+    image: "/static/favicon.ico", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@luxpris",
+  },
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
