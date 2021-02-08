@@ -17,7 +17,7 @@ Modified boilerplate of the Gatsby default starter including React-Bootstrap and
 
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your new site’s directory and start it.
 
     ```shell
     cd my-gatsby-starter/
