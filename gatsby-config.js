@@ -8,11 +8,11 @@ module.exports = {
     DEV_SSR: false,
   },
   siteMetadata: {
-    title: "Josh Katzenmeyer",
-    titleTemplate: "Josh Katzenmeyer",
+    title: "Gatsby Bootstrap Starter",
+    titleTemplate: "Gatsby Bootstrap Starter",
     description:
-      "Minneapolis-based creative technologist offering limited edition generative artworks, commissions, and web development services.",
-    url: "https://www.joshkatzenmeyer.com", // No trailing slash allowed!
+      "Modified version of the Gatsby default starter template, with additional tools (react-intersection-observer, Framer Motion, and React-Bootstrap) for easy animation and design.",
+    url: "https://www.github.com/katze033/gatsby-bootstrap-starter", // No trailing slash allowed!
     image: "/static/favicon.ico", // Path to your image you placed in the 'static' folder
     twitterUsername: "@luxpris",
   },
